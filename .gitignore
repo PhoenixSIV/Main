@@ -10,9 +10,9 @@ src/test/test_phoenixsiv_fuzzy
 src/qt/test/test_phoenixsiv-qt
 
 # autoreconf
-Makefile.in
-aclocal.m4
-autom4te.cache/
+
+
+
 build-aux/config.guess
 build-aux/config.sub
 build-aux/depcomp
@@ -26,10 +26,10 @@ build-aux/m4/ltversion.m4
 build-aux/missing
 build-aux/compile
 build-aux/test-driver
-config.log
-config.status
-configure
-libtool
+
+
+
+
 src/config/bitcoin-config.h
 src/config/bitcoin-config.h.in
 src/config/stamp-h1
@@ -79,7 +79,7 @@ src/qt/bitcoin-qt.includes
 
 # Compilation and Qt preprocessor part
 *.qm
-Makefile
+
 phoenixsiv-qt
 phoenixsiv-Qt.app
 background.tiff*
@@ -113,5 +113,4 @@ test/cache/*
 
 /doc/doxygen/
 
-libbitcoinconsensus.pc
 contrib/devtools/split-debug.sh
